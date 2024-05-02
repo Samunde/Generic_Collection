@@ -5,6 +5,20 @@ package com.sam.generics;
 public class Main {
     public static void main(String[] args) {
 
+ImplementAbstractGeneric<String> obj = new ImplementAbstractGeneric<>();
+obj.printBooleans(true);
+obj.printDoubles("12.25");
+obj.printFloats(12.5f);
+obj.printStrings("Hello World");
+
+
+
+
+
+
+
+
+
 
 //        DemoClass demo = new DemoClass();
 
@@ -30,8 +44,29 @@ public class Main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //        ProductItem<Integer> objMove=new ProductItem<>();
-//        objMove.move(9,"Boston");
+//        objMove.move(7,"Boston");
 //        System.out.println(objMove.getItemBeingMoved());
 //        System.out.println(objMove.getLocationBeingMoved());
 
